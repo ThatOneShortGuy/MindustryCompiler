@@ -53,3 +53,10 @@ void main() {
 ```
 Functions have to be defined inside of classes. The `main` function is the entry point of the program. The `cout` with the `<<` operator is used to print to `message1`
 There is no `cin` because there is no way to get input from the user.
+
+Note that there are no curly braces after the `if` statement. That's just because the grammar either accepts a single statement or a block of statements.
+```
+statement    : IF LPAREN expression RPAREN statement
+             | IF LPAREN expression RPAREN statement ELSE statement
+```
+`BlockStatement` can be a `statement` as well.
