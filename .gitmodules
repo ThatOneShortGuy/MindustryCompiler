@@ -1,0 +1,3 @@
+[submodule "mkxi-highlighting"]
+	path = mkxi-highlighting
+	url = https://github.com/ThatOneShortGuy/mkxi-highlighting.git
